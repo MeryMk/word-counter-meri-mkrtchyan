@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Word Counter</title>
+</head>
+
+<body text="#FFFFFF" >
+
+    <h1>Wellcome to Word Counter </h1>
+    <p class="instruction">Write any text you want below and I'll count how many words,sentences and letters there are.
+        <br>Please don't forget to put a '.' at the end of each sentence.
+    </p>
+    <form onsubmit="counter()" class="inp">
+        Enter here: <input type="text" id="btnInput">
+        <button type="submit">Submit</button>
+    </form>
+    <div class="rnd">
+    <form onsubmit="changeBg()" >
+        Click to change background: <button type="button" onclick="changeBg()">click me</button>
+    </form></div>
+    <script src="main.js"></script>
+</body>
+
+</html>

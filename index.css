@@ -1,0 +1,25 @@
+h1{
+    margin-top: 2%;
+    text-align: center;
+}
+.instruction{
+    text-align: center;
+    margin-top: 5%;
+    font-size: larger;
+}
+.inp{
+    margin-top: 12%;
+    margin-left: 38%;
+}
+.btnInput{
+    margin-left: 45%;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blueviolet;
+}
+.rnd{
+    padding-top: 20%;
+    padding-left: 40%;
+}
